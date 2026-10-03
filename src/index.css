@@ -1,0 +1,8 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+html,body,#root{height:100%} body{@apply bg-black text-white antialiased overflow-x-hidden;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+.card{@apply rounded-3xl bg-zinc-900 border border-zinc-800 p-4}
+.btn{@apply w-full rounded-2xl bg-accent text-black font-bold py-4 text-base active:scale-[.98] transition disabled:opacity-50}
+.btn2{@apply rounded-2xl bg-zinc-800 text-white font-semibold px-4 py-3 active:scale-[.98] transition}
+.input{@apply w-full rounded-xl bg-zinc-800 px-3 py-3 text-base outline-none focus:ring-2 focus:ring-accent min-w-0}
+.bar{@apply h-2 rounded-full bg-zinc-800 overflow-hidden} .bar>div{@apply h-full bg-accent transition-all duration-500}
+.err{@apply rounded-xl bg-red-950 text-red-300 text-sm p-3}
